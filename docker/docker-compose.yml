@@ -27,25 +27,11 @@ services:
     environment:
       POSTGRES_DB: securitas
       POSTGRES_USER: securitas
-      POSTGRES_PASSWORD: secret
+      POSTGRES_PASSWORD: securitas@148531
     ports:
       - "5432:5432"
     networks:
       - securitas-net
-
-  nginx:
-    container_name: securitas-nginx
-    image: nginx:latest
-    ports:
-      - "80:80"
-    volumes:
-      - ../src:/var/www
-      - ./nginx/conf.d:/etc/nginx/conf.d
-    depends_on:
-      - app
-    networks:
-      - securitas-net
-
 volumes:
   pgdata:
 

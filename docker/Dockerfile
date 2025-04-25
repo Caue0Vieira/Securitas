@@ -2,25 +2,17 @@
 FROM webdevops/php-nginx-dev:8.4
 
 # Instalar Node.js e npm
-RUN curl -sL https://deb.nodesource.com/setup_22.15.x | bash - && \
-    apt-get update && \
-    apt-get install -y nodejs
+RUN apt-get update && apt-get install -y \
+        libaio1 unzip wget libzip-dev \
+    && docker-php-ext-install zip \
+    && rm -rf /var/lib/apt/lists/*
 
 # Configurações do projeto (ajuste conforme necessário)
-WORKDIR /var/www
+WORKDIR /app
 
 # Copiar os arquivos do projeto para o container
-COPY . .
-
-# Instalar dependências do PHP
-RUN composer install --no-interaction --prefer-dist
-
-# Instalar dependências do Node.js
-RUN npm install
+COPY src /app
 
 # Expor as portas necessárias
 EXPOSE 80
 EXPOSE 443
-
-# Comando padrão para rodar o PHP-FPM e Nginx
-CMD ["php-fpm", "-D"]
