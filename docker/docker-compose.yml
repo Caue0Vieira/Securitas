@@ -9,7 +9,7 @@ services:
       - "443:443" #HTTPS
     build:
       context: ..
-      dockerfile: Dockerfile
+      dockerfile: docker/Dockerfile
     volumes:
       - ../src:/app
     working_dir: /app
