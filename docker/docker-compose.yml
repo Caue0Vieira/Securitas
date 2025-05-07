@@ -3,8 +3,8 @@ version: '3.8'
 services:
   securitas-app:
     build:
-      context: ../src
-      dockerfile: ../docker/Dockerfile
+      context: ../docker
+      dockerfile: Dockerfile
     container_name: securitas-app
     user: "1000:1000"
     ports:

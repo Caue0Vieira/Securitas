@@ -4,9 +4,119 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43983264-dd05-4ab3-ada5-1b30609ea4ee" name="Changes" comment="README.md atualizado">
+    <list default="true" id="43983264-dd05-4ab3-ada5-1b30609ea4ee" name="Changes" comment="main nova">
+      <change beforePath="$PROJECT_DIR$/.idea/Securitas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Securitas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/default.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/php/local.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/EmpresasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/FuncionariosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/FuncoesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/GruposController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/MedicosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/SetoresController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/UnidadesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/CreateEmpresasRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/CreateFuncionariosRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/CreateFuncoesRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/CreateGruposRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/CreateMedicosRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/CreateSetoresRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/CreateUnidadesRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/UpdateEmpresasRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/UpdateFuncionariosRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/UpdateFuncoesRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/UpdateGruposRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/UpdateMedicosRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/UpdateSetoresRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/UpdateUnidadesRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/Empresas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/Funcionarios.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/Funcoes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/Grupos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/Medicos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/Setores.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/Unidades.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Repositories/EmpresasRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Repositories/FuncionariosRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Repositories/FuncoesRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Repositories/GruposRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Repositories/MedicosRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Repositories/SetoresRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Repositories/UnidadesRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2025_04_27_150001_create_grupos_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2025_04_27_150002_create_medicos_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2025_04_27_150003_create_empresas_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2025_04_27_150004_create_funcoes_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2025_04_27_150004_create_unidades_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2025_04_27_150005_create_setores_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2025_04_27_150006_create_funcionarios_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/model_schemas/Empresas.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/model_schemas/Funcionarios.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/model_schemas/Funcoes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/model_schemas/Grupos.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/model_schemas/Medicos.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/model_schemas/Setores.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/model_schemas/Unidades.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/empresas/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/empresas/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/empresas/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/empresas/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/empresas/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/empresas/show_fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/empresas/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/funcionarios/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/funcionarios/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/funcionarios/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/funcionarios/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/funcionarios/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/funcionarios/show_fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/funcionarios/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/funcoes/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/funcoes/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/funcoes/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/funcoes/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/funcoes/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/funcoes/show_fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/funcoes/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/grupos/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/grupos/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/grupos/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/grupos/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/grupos/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/grupos/show_fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/grupos/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/layouts/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/layouts/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/medicos/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/medicos/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/medicos/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/medicos/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/medicos/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/medicos/show_fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/medicos/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/setores/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/setores/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/setores/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/setores/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/setores/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/setores/show_fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/setores/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/unidades/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/unidades/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/unidades/fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/unidades/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/unidades/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/unidades/show_fields.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/unidades/table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +151,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Caue0Vieira/Securitas.git&quot;,
-    &quot;accountId&quot;: &quot;b0c1a0a8-a4bb-4241-a4f7-e67c8f8797e1&quot;
+    &quot;accountId&quot;: &quot;c47b3f81-3de7-4e8a-95ce-3f87c30d6fa6&quot;
   }
 }</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe">
@@ -193,12 +303,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/home/cauev/Securitas&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -216,8 +328,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PS-243.26053.13" />
-        <option value="bundled-php-predefined-a98d8de5180a-1ec7b7818973-com.jetbrains.php.sharedIndexes-PS-243.26053.13" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PS-251.23774.466" />
+        <option value="bundled-php-predefined-a98d8de5180a-aaeaa8632555-com.jetbrains.php.sharedIndexes-PS-251.23774.466" />
       </set>
     </attachedChunks>
   </component>
@@ -241,6 +353,8 @@
       <workItem from="1745550029116" duration="852000" />
       <workItem from="1745634555711" duration="2907000" />
       <workItem from="1745681965354" duration="1510000" />
+      <workItem from="1746654720882" duration="3489000" />
+      <workItem from="1746658666218" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="README.md atualizado">
       <option name="closed" value="true" />
@@ -269,6 +383,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="README.md atualizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md atualizado" />
+    <MESSAGE value="main nova" />
+    <option name="LAST_COMMIT_MESSAGE" value="main nova" />
   </component>
 </project>

@@ -5,16 +5,18 @@
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
-        "php": "^8.1",
+        "php": "^8.4",
         "guzzlehttp/guzzle": "^7.2",
         "infyomlabs/laravel-generator": "^6.0",
         "infyomlabs/adminlte-templates": "^6.0",
+        "doctrine/dbal": "3.*",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
-        "laravel/tinker": "^2.8",
-        "doctrine/dbal": "3.*"
+        "laravel/tinker": "^2.8"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest"
+        ,
         "barryvdh/laravel-debugbar": "^3.15",
         "barryvdh/laravel-ide-helper": "^3.1",
         "fakerphp/faker": "^1.9.1",
